@@ -1,0 +1,375 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: url(img/patrick-fore-hoxqcGUheeo-unsplash.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-sec {
+    height: 200px;
+    /* background-size: cover; */
+
+}
+.Logo-img {
+    width: 100px;
+}
+
+.nav-bar span {
+    color: white;
+    height: 75px;
+    font-size: 35px;
+    padding: 10px 0px;
+    font-size: 40px;
+    font-weight: 900px;
+    background-color: black;
+    /* margin-top:2rem; */
+    text-align: center;
+}
+
+.nav-bar {
+    /* margin: 2rem; */
+    /* border: 2px solid white; */
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: sticky;
+  
+}
+
+.nav-bar :hover {
+    background-color: white;
+    color: black;
+    transition: all 500ms;
+}
+
+.nav-bar :hover ul li a {
+    color: black;
+    transition: all 500ms;
+}
+
+.ul-nav {
+    /* margin-top: 2rem; */
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+
+}
+
+.ul-nav li {
+    list-style: none;
+    margin-top: 1rem;
+
+}
+
+.ul-nav li a {
+    text-decoration: none;
+    color: white;
+
+    /* font-weight: bolder; */
+    /* border: 2px solid red; */
+    font-size: 20px;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    /* transition: width .3s; */
+}
+
+.hero {
+    margin-left: 6rem;
+    /* display: flex; */
+
+}
+
+.text1 {
+    color: white;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2 {
+    color: wheat;
+    font-size: 100px;
+}
+
+.Button-class {
+    padding: 10px;
+    margin-top: 1rem;
+    height: 60px;
+    background-color: rgba(255, 235, 205, 0);
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    border: 3px solid white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Button-class:hover {
+    background-color: #304561;
+    border: 2px solid yellow;
+    color: white;
+
+}
+
+.nav-bar:hover .Button-class {
+    border: 2px solid rgba(255, 208, 0, 0.925);
+    color: black;
+}
+
+.nav-bar:hover .Button-class:hover {
+    color: white;
+}
+
+.Img {
+    padding-top: 2rem;
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.subnav-content{
+    display: none;
+}
+
+.subnav-content{
+    position: absolute;
+}
+.cool-link:hover + .subnav-content {
+    width: 100%;
+    display: block;
+    background-color: white;
+    left: 0;
+    margin-top:0rem;
+}
+.nav-2{
+    position: absolute;
+    color: white;
+    margin-top: -5rem;
+    display: flex;
+    margin-left: 13rem;   
+}
+.nav-content{
+    margin: 3rem;
+    font-size: 25px;
+}
+.nav-2:hover{
+    background-color: white;
+    color: black;
+    transition: all 300ms;
+}
+.button{
+    margin-top: 3rem;
+    margin-left: 20rem;
+}
+.button h1{
+    font-size: 100px;
+    color: white;
+}
+.button button{
+    margin-left: 14rem;
+}
+.shop-hero{
+    margin-left: 3rem;
+    margin-top: 12rem;
+  
+    
+}
+.border{
+  border: 1px solid black;
+    margin-top: -1rem;
+    margin-left: 16rem;
+    margin-right: 3rem;
+}
+.hero-grid{
+    margin-top:3rem;
+    /* border: 2px solid black; */
+    height: 700px;
+    margin-right: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+
+}
+.hero-grid-content{
+    /* border: 2px solid red; */
+    height: 600px;
+    
+}
+.hero-grid-content img{
+    width: 100%;
+}
+.hero-text{
+    background-color: #F3F0EB;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:cursive;
+    margin-top: 3rem;
+
+
+}
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+.h3-text{
+    margin-top: 3rem;
+    
+}
+.hero-text h3{
+    font-weight: 200;
+}
+
+.button-class {
+    padding: 10px;
+    margin-top:2rem;
+    height:60px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    width:270px;
+    text-align: center;
+    color: black;
+    border: 3px solid white;
+    font-size: 20px;
+    /* font-weight: bold; */
+    
+}
+
+.button-class:hover {
+    background-color: #304561;
+    border: 2px solid yellow;
+    color: white;
+
+}
+.hero-img{
+    margin-top: 3rem;
+    background-color: #C2B04A;
+    height: 700px;
+    display: flex;
+}
+.hero-img-text{
+    margin-left: 7rem;
+}
+.brand{
+    margin-top: 5rem;
+}
+.At{
+    margin-top:1rem;
+    font-size: 60px;
+    color: #362B24;
+}
+.with{
+    font-size: 60px;
+    color: #362B24;
+}
+.Havenly{
+    margin-top: 1rem;
+}
+.immg{
+    width: 30%;
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+.immg-1{
+    width: 50%;
+    margin-left:2rem;
+
+}
+
+.Our-Stories{
+    /* border: 2px solid black; */
+    height: 500px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.Heading{
+    margin-top: 3rem;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+.our-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.our-content{
+    /* border: 2px solid black; */
+    height: 300px;
+}
+.our-content img{
+    width: 100%;
+}
+.FOOTER{
+    background-color: #304561;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.f-h3{
+    margin-top: 5rem;
+}
+.FOOTER h1{
+    font-size: 50px;
+    
+}
+
+
+footer{
+    display: flex;
+    background-color: #F3F0EB;
+}
+footer h3{
+    color: #304561;
+    font-size: 30px;
+}
+.m{
+    margin: 3rem;
+}
+footer p{
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+}
+.logo{
+    margin-left: -2rem;
+}
+.logo h1{
+
+    color: #304561;
+
+}
+.logo-img i{
+    margin-top:1rem;
+    margin-right:10px;
+}
+
+.footer-last{
+    color: #304561;
+    margin-top:3rem;
+    
+}
